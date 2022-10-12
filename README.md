@@ -128,3 +128,21 @@ pnpm dev
 - [x] auto-import
 - [x] vue-router / pinia
 - [x] vitest / cypress
+
+### `ts-vue-unocss`
+
+```sh
+degit pengzhanbo/templates/ts-vue-unocss my-project
+cd my-project
+pnpm install
+pnpm dev
+```
+
+- [x] vite
+- [x] vue
+- [x] typescript
+- [x] unocss
+- [x] eslint / prettier
+- [x] auto-import
+- [x] vue-router / pinia
+- [x] vitest / cypress

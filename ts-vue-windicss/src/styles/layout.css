@@ -1,0 +1,17 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--c-bg);
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
