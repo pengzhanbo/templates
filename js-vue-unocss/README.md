@@ -8,6 +8,7 @@
 - autoImport & autoComponent
 - pinia
 - vue-router
+- cypress / vitest
 
 ## Usage
 

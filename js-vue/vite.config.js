@@ -19,7 +19,7 @@ export default defineConfig({
     AutoImport({
       imports: ['vue', 'vue-router', 'vue/macros', '@vueuse/core'],
       dts: false,
-      dirs: ['src/composables', 'src/stores'],
+      dirs: ['src/composables', 'src/store'],
       vueTemplate: true,
       eslintrc: {
         enabled: true, // Default `false`

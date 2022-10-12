@@ -3,12 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@pengzhanbo/eslint-config-vue-ts': ^0.2.6
   '@pengzhanbo/prettier-config': ^0.2.5
+  '@types/node': ^18.8.4
   '@types/nprogress': ^0.2.0
   '@vitejs/plugin-vue': ^3.1.2
   '@vue/test-utils': ^2.1.0
   '@vueuse/core': ^9.3.0
   autoprefixer: ^10.4.12
-  cypress: ^10.9.0
+  cypress: ^10.10.0
   eslint: ^8.25.0
   eslint-plugin-cypress: ^2.12.1
   normalize.css: ^8.0.1
@@ -39,11 +40,12 @@ dependencies:
 devDependencies:
   '@pengzhanbo/eslint-config-vue-ts': 0.2.6_jgy3n4355e6bfws3px3ickn7ti
   '@pengzhanbo/prettier-config': 0.2.5_prettier@2.7.1
+  '@types/node': 18.8.4
   '@types/nprogress': 0.2.0
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.7+vue@3.2.40
   '@vue/test-utils': 2.1.0_vue@3.2.40
   autoprefixer: 10.4.12_postcss@8.4.17
-  cypress: 10.9.0
+  cypress: 10.10.0
   eslint: 8.25.0
   eslint-plugin-cypress: 2.12.1_eslint@8.25.0
   pnpm: 7.13.4
@@ -256,8 +258,6 @@ packages:
     peerDependenciesMeta:
       prettier:
         optional: true
-      typescript:
-        optional: true
     dependencies:
       '@pengzhanbo/eslint-config-basic': 0.2.6_b55jpzlmzixyha3b4bz5gt7k4a
       '@typescript-eslint/eslint-plugin': 5.40.0_25sstg4uu2sk4pm7xcyzuov7xq
@@ -456,7 +456,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 14.18.32
+      '@types/node': 18.8.4
     dev: true
     optional: true
 
@@ -1189,8 +1189,8 @@ packages:
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
 
-  /cypress/10.9.0:
-    resolution: {integrity: sha512-MjIWrRpc+bQM9U4kSSdATZWZ2hUqHGFEQTF7dfeZRa4MnalMtc88FIE49USWP2ZVtfy5WPBcgfBX+YorFqGElA==}
+  /cypress/10.10.0:
+    resolution: {integrity: sha512-bU8r44x1NIYAUNNXt3CwJpLOVth7HUv2hUhYCxZmgZ1IugowDvuHNpevnoZRQx1KKOEisLvIJW+Xen5Pjn41pg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -2132,7 +2132,7 @@ packages:
     dev: true
 
   /extsprintf/1.3.0:
-    resolution: {integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=}
+    resolution: {integrity: sha512-11Ndz7Nv+mvAC1j0ktTa7fAb0vLyGGX+rMHNBYQviQDGU0Hw7lhctJANqbPhu9nV9/izT/IntTgZ7Im/9LJs9g==}
     engines: {'0': node >=0.6.0}
     dev: true
 
@@ -3767,9 +3767,6 @@ packages:
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       tslib: 1.14.1
       typescript: 4.8.4
@@ -4099,9 +4096,6 @@ packages:
     hasBin: true
     peerDependencies:
       typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
     dependencies:
       '@volar/vue-language-core': 1.0.6
       '@volar/vue-typescript': 1.0.6

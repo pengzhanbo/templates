@@ -1,6 +1,6 @@
 import App from './App.vue'
 import { router, setupRouter } from './router'
-import { setupStore } from './stores'
+import { setupStore } from './store'
 
 import 'virtual:windi-devtools'
 import 'virtual:windi.css'

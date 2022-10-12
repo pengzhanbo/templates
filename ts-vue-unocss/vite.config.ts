@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import path from 'path'
 import vue from '@vitejs/plugin-vue'
 import unocss from 'unocss/vite'
@@ -20,7 +21,7 @@ export default defineConfig({
     AutoImport({
       imports: ['vue', 'vue-router', 'vue/macros', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
-      dirs: ['src/composables', 'src/stores'],
+      dirs: ['src/composables', 'src/store'],
       vueTemplate: true,
     }),
 

@@ -164,3 +164,23 @@ pnpm dev
 - [x] auto-import
 - [x] vue-router / pinia
 - [x] vitest / cypress
+
+## React
+
+### `ts-react-styled`
+
+```sh
+degit pengzhanbo/templates/ts-react-styled my-project
+cd my-project
+pnpm install
+pnpm dev
+```
+
+- [x] vite
+- [x] react
+- [x] typescript
+- [x] styled-components
+- [x] eslint / prettier
+- [x] auto-import
+- [x] react-router / recoil
+- [x] vitest / cypress
