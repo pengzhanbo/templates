@@ -146,3 +146,21 @@ pnpm dev
 - [x] auto-import
 - [x] vue-router / pinia
 - [x] vitest / cypress
+
+### `ts-vue-windicss`
+
+```sh
+degit pengzhanbo/templates/ts-vue-windicss my-project
+cd my-project
+pnpm install
+pnpm dev
+```
+
+- [x] vite
+- [x] vue
+- [x] typescript
+- [x] windicss
+- [x] eslint / prettier
+- [x] auto-import
+- [x] vue-router / pinia
+- [x] vitest / cypress

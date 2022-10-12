@@ -1,10 +1,10 @@
-# ts-vue-unocss
+# ts-vue-windicss
 
 支持以下特性：
 
 - vue
 - typescript
-- unocss
+- windicss
 - eslint & prettier
 - autoImport & autoComponent
 - pinia
