@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@pengzhanbo/eslint-config-vue",
+    "./.eslintrc-auto-import.json"
+  ],
+  "overrides": [
+    {
+      "files": ["cypress/**/*.spec.*"],
+      "extends": [
+        "plugin:cypress/recommended"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "templates for project",
+  "license": "MIT",
+  "author": "pengzhanbo",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "up": "taze major -r -w"
+  },
+  "lint-staged": {
+    "*.md": "prettier --write --cache --ignore-unknown",
+    "package.json": "sort-package-json"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "sort-package-json": "^2.0.0",
+    "taze": "^0.8.2",
+    "typescript": "^4.8.4"
+  }
+}
