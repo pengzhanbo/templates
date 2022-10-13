@@ -21,7 +21,6 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-is: ^18.2.0
-  react-router: ^6.4.2
   react-router-dom: ^6.4.2
   react-test-renderer: ^18.2.0
   recoil: ^0.7.6
@@ -38,7 +37,6 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
-  react-router: 6.4.2_react@18.2.0
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
   recoil: 0.7.6_biqbaboplfbrettd7655fr4n2y
   styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
