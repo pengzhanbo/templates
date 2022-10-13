@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  border: none;
+  
+  &.ml {
+    margin-left: 0.5rem;
+  }
+}

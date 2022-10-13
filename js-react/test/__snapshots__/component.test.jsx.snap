@@ -1,0 +1,28 @@
+// Vitest Snapshot v1
+
+exports[`Counter.tsx > should render 1`] = `
+<div
+  className="_wrapper_11bcd0"
+>
+  <p>
+    count: 
+    1
+  </p>
+  <p>
+    doubleCount: 
+    2
+  </p>
+  <button
+    className="_btn_11bcd0"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    className="_btn_11bcd0 _ml_11bcd0"
+    onClick={[Function]}
+  >
+    -
+  </button>
+</div>
+`;
