@@ -1,0 +1,49 @@
+{
+  "name": "react-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite --port 8080 --host --open",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:e2e": "cypress open",
+    "test:unit": "vitest"
+  },
+  "prettier": "@pengzhanbo/prettier-config",
+  "dependencies": {
+    "ahooks": "^3.7.1",
+    "mobx": "^6.6.2",
+    "mobx-react": "^7.5.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@pengzhanbo/eslint-config-react": "^0.2.6",
+    "@pengzhanbo/prettier-config": "^0.2.6",
+    "@types/node": "^18.8.4",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.1.0",
+    "@vitest/ui": "^0.24.1",
+    "cypress": "^10.10.0",
+    "eslint": "^8.25.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "happy-dom": "^7.5.10",
+    "jsdom": "^20.0.1",
+    "prettier": "^2.7.1",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^4.8.4",
+    "unplugin-auto-import": "^0.11.2",
+    "vite": "^3.1.7",
+    "vite-plugin-inspect": "^0.7.5",
+    "vitest": "^0.24.1"
+  }
+}

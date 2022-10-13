@@ -203,3 +203,22 @@ pnpm dev
 - [x] react-router
 - [x] recoil
 - [x] vitest / cypress
+
+### `ts-react-styled-mobx`
+
+```sh
+degit pengzhanbo/templates/ts-react-styled-mobx my-project
+cd my-project
+pnpm install
+pnpm dev
+```
+
+- [x] vite
+- [x] react
+- [x] typescript
+- [x] styled-components
+- [x] eslint / prettier
+- [x] auto-import
+- [x] react-router
+- [x] mobx
+- [x] vitest / cypress
