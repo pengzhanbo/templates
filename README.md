@@ -9,7 +9,7 @@
   - [ ] webpack
 - Framework
   - [x] Vue
-  - [ ] React
+  - [x] React
   - [ ] Lit
   - [ ] Solid
   - [ ] Svelte
@@ -182,5 +182,24 @@ pnpm dev
 - [x] styled-components
 - [x] eslint / prettier
 - [x] auto-import
-- [x] react-router / recoil
+- [x] react-router
+- [x] vitest / cypress
+
+### `ts-react-styled-recoil`
+
+```sh
+degit pengzhanbo/templates/ts-react-styled-recoil my-project
+cd my-project
+pnpm install
+pnpm dev
+```
+
+- [x] vite
+- [x] react
+- [x] typescript
+- [x] styled-components
+- [x] eslint / prettier
+- [x] auto-import
+- [x] react-router
+- [x] recoil
 - [x] vitest / cypress

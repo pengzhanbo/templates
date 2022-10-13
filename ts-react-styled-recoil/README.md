@@ -5,6 +5,7 @@
 - react
 - vite
 - typescript
+- recoil
 - styled-components
 - eslint / prettier
 - autoImport

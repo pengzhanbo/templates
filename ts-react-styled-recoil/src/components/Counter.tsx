@@ -1,4 +1,6 @@
+import { useRecoilState, useRecoilValue } from 'recoil'
 import styled from 'styled-components'
+import { countState, doubleCountState } from '~/store/demo'
 
 const Wrapper = styled.div`
   padding: 1rem;
@@ -17,8 +19,8 @@ const Button = styled.button`
 `
 
 function Counter() {
-  const [count, setCount] = useState(1)
-  const doubleCount = count * 2
+  const [count, setCount] = useRecoilState(countState)
+  const doubleCount = useRecoilValue(doubleCountState)
   const increment = () => setCount((count) => count + 1)
   const decrement = () => setCount((count) => count - 1)
   return (
