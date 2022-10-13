@@ -173,6 +173,25 @@ pnpm dev
 
 ## React
 
+### `ts-react`
+
+```sh
+degit pengzhanbo/templates/ts-react my-project
+cd my-project
+pnpm install
+pnpm dev
+```
+
+- [x] vite
+- [x] react
+- [x] typescript
+- [x] postcss / sass
+- [x] eslint / prettier
+- [x] auto-import
+- [x] react-router
+- [x] ahooks
+- [x] vitest / cypress
+
 ### `ts-react-styled`
 
 ```sh
