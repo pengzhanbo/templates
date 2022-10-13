@@ -75,6 +75,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] vue-router / pinia
+- [x] vueuse
 - [x] vitest / cypress
 
 ### `js-vue-unocss`
@@ -92,6 +93,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] vue-router / pinia
+- [x] vueuse
 - [x] vitest / cypress
 
 ### `js-vue-windicss`
@@ -109,6 +111,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] vue-router / pinia
+- [x] vueuse
 - [x] vitest / cypress
 
 ### `ts-vue`
@@ -127,6 +130,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] vue-router / pinia
+- [x] vueuse
 - [x] vitest / cypress
 
 ### `ts-vue-unocss`
@@ -145,6 +149,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] vue-router / pinia
+- [x] vueuse
 - [x] vitest / cypress
 
 ### `ts-vue-windicss`
@@ -163,6 +168,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] vue-router / pinia
+- [x] vueuse
 - [x] vitest / cypress
 
 ## React
@@ -183,6 +189,7 @@ pnpm dev
 - [x] eslint / prettier
 - [x] auto-import
 - [x] react-router
+- [x] ahooks
 - [x] vitest / cypress
 
 ### `ts-react-styled-recoil`
@@ -202,6 +209,7 @@ pnpm dev
 - [x] auto-import
 - [x] react-router
 - [x] recoil
+- [x] ahooks
 - [x] vitest / cypress
 
 ### `ts-react-styled-mobx`
@@ -221,4 +229,5 @@ pnpm dev
 - [x] auto-import
 - [x] react-router
 - [x] mobx
+- [x] ahooks
 - [x] vitest / cypress
