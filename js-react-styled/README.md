@@ -1,10 +1,9 @@
-# ts-react-styled
+# js-react-styled
 
 支持以下特性：
 
 - react
 - vite
-- typescript
 - styled-components
 - eslint / prettier
 - autoImport
