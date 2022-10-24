@@ -13,7 +13,7 @@
   },
   "prettier": "@pengzhanbo/prettier-config",
   "dependencies": {
-    "ahooks": "^3.7.1",
+    "ahooks": "^3.7.2",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,21 +22,21 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@pengzhanbo/eslint-config-react": "^0.2.6",
-    "@pengzhanbo/prettier-config": "^0.2.6",
+    "@pengzhanbo/eslint-config-react": "^0.2.9",
+    "@pengzhanbo/prettier-config": "^0.2.9",
     "@vitejs/plugin-react": "^2.1.0",
-    "@vitest/ui": "^0.24.1",
+    "@vitest/ui": "^0.24.3",
     "cypress": "^10.10.0",
-    "eslint": "^8.25.0",
+    "eslint": "^8.26.0",
     "eslint-plugin-cypress": "^2.12.1",
-    "happy-dom": "^7.5.10",
+    "happy-dom": "^7.6.0",
     "jsdom": "^20.0.1",
     "prettier": "^2.7.1",
     "react-test-renderer": "^18.2.0",
-    "unplugin-auto-import": "^0.11.2",
-    "vite": "^3.1.7",
+    "unplugin-auto-import": "^0.11.3",
+    "vite": "^3.1.8",
     "vite-plugin-inspect": "^0.7.5",
-    "vitest": "^0.24.1"
+    "vitest": "^0.24.3"
   },
   "pnpm": {
     "peerDependencyRules": {
